@@ -109,7 +109,7 @@ export const Navbar = () => {
             </Link>
           </ul>
           <a
-            href="https://drive.google.com/file/d/1TAjT6e_KvXfJmLiijkBSXdcNoUwGlSOW/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1c59-yM3JbEta3urz1g2RTveA1fpMyyN9/view?usp=sharing"
             target="_blank"
           >
             <motion.button
@@ -214,7 +214,7 @@ export const Navbar = () => {
                   </Link>
                 </ul>
                 <a
-                  href="https://drive.google.com/file/d/1TAjT6e_KvXfJmLiijkBSXdcNoUwGlSOW/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1c59-yM3JbEta3urz1g2RTveA1fpMyyN9/view?usp=sharing"
                   target="_blank"
                 >
                   <motion.button
@@ -229,13 +229,13 @@ export const Navbar = () => {
                 <div className="flex gap-5 mdl:text-3xl text-2xl text-textBlue">
                   <a
                     className="hover:animate-bounce"
-                    href="https://www.linkedin.com/in/ahasanmuna/"
+                    href="https://www.linkedin.com/in/ahasanmuna/"  target="_blank"
                   >
                     <FaLinkedin></FaLinkedin>
                   </a>
                   <a
                     className="hover:animate-bounce"
-                    href="https://github.com/mahfuja5768"
+                    href="https://github.com/mahfuja5768"  target="_blank"
                   >
                     {" "}
                     <FaGithub></FaGithub>

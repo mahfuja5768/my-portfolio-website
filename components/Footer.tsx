@@ -14,13 +14,13 @@ const Footer = () => {
         <div className="flex gap-5 mdl:text-3xl text-2xl text-textBlue">
           <a
             className="hover:animate-bounce"
-            href="https://www.linkedin.com/in/ahasanmuna/"
+            href="https://www.linkedin.com/in/ahasanmuna/"  target="_blank"
           >
             <FaLinkedin></FaLinkedin>
           </a>
           <a
             className="hover:animate-bounce"
-            href="https://github.com/mahfuja5768"
+            href="https://github.com/mahfuja5768" target="_blank"
           >
             {" "}
             <FaGithub></FaGithub>
