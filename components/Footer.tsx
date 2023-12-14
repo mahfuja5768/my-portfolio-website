@@ -1,6 +1,5 @@
-import Image from "next/image";
-import logo from "../public/assets/logo.png";
-import { FaArrowUp, FaGithub, FaLinkedin, FaMailBulk } from "react-icons/fa";
+
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
 const Footer = () => {
@@ -8,8 +7,10 @@ const Footer = () => {
     <div className="max-w-containerSmall mx-auto pt-10 lgl:pt-12 flex flex-col gap-8">
       <div className="flex items-center mdl:flex-row flex-col-reverse pb-4 justify-between border-b-2 border-textBlue">
         <div className="flex items-center ">
-          <Image className="w-24" src={logo} alt="logo"></Image> 
-          <span className="my-2 inline-flex text-textBlue mdl:text-2xl">Mahfuja Ahasan Muna</span>
+        <a href="#home">
+            <h1 className="text-textBlue md:text-5xl text-xl md:p-2 p-1 border-4 border-textBlue rounded-tl-3xl rounded-br-3xl">M</h1>
+          </a>
+          <span className="my-2 inline-flex text-textBlue ms-4 font-bold mdl:text-2xl">Mahfuja Ahasan Muna</span>
         </div>
         <div className="flex gap-5 mdl:text-3xl text-2xl text-textBlue">
           <a

@@ -15,7 +15,7 @@ export const Banner = () => {
         <Image
           src={myPhoto}
           alt="myPhoto"
-          className="rounded-full border-4 border-textBlue p-1"
+          className="rounded-full border-4 border-textBlue p-1 animate-pulse"
         ></Image>
       </motion.div>
       <motion.h3

@@ -9,8 +9,8 @@ export const About = () => {
       <SectionTitle title="About Me"></SectionTitle>
       <div className="text-justify">
         <p>
-          Hey, I am
-          <span className="font-semibold tracking-wide text-textBlue">
+          Hey, I am 
+          <span className="font-semibold tracking-wide ms-1 text-textBlue">
             Mahfuja Ahasan Muna
           </span>{" "}
           , a web developer driven by a passion to turn digital dreams into

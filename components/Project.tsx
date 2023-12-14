@@ -13,8 +13,8 @@ const Project = () => {
     <section id="project" className="max-w-container mx-auto py-10 mdl:py-24">
       <SectionTitle title="My Projects"></SectionTitle>
       <div className="my-12 grid grid-cols-1 mdl:grid-cols-2 gap-8">
-        <div className="border-4 border-textBlue">
-          <Image className="h-72  " src={p1} alt="" />
+        <div className="border-2 rounded-2xl border-textBlue">
+          <Image className="h-72  rounded-t-2xl" src={p1} alt="" />
           <div className="my-5  p-5">
             <h2 className="text-3xl font-medium mb-3">
               <span className="text-textBlue">Dream Property</span>{" "}
@@ -60,8 +60,8 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="border-4 border-textBlue">
-          <Image className="h-72 " src={p2} alt="" />
+        <div className="border-2 rounded-2xl border-textBlue">
+          <Image className="h-72 rounded-t-2xl" src={p2} alt="" />
           <div className="my-5 p-5">
             <h2 className="text-3xl font-medium mb-3">
               <span className="text-textBlue">Vogue-Verse-Apparel</span>{" "}
@@ -113,8 +113,8 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="border-4 border-textBlue">
-          <Image className="h-72 " src={p3} alt="" />
+        <div className="border-2 rounded-2xl border-textBlue">
+          <Image className="h-72 rounded-t-2xl" src={p3} alt="" />
           <div className="my-5 p-5">
             <h2 className="text-3xl font-medium mb-3">
               <span className="text-textBlue">Foodie Pal</span>{" "}
@@ -159,8 +159,8 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="border-4 border-textBlue">
-          <Image className="h-72" src={p4} alt="" />
+        <div className="border-2 rounded-2xl border-textBlue">
+          <Image className="h-72 rounded-t-2xl" src={p4} alt="" />
           <div className="my-5 p-5">
             <h2 className="text-3xl font-medium mb-3">
               <span className="text-textBlue">Mindful-Moments</span>{" "}
@@ -203,8 +203,8 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="border-4 border-textBlue">
-          <Image className="h-72" src={p5} alt="" />
+        <div className="border-2 rounded-2xl border-textBlue">
+          <Image className="h-72 rounded-t-2xl" src={p5} alt="" />
           <div className="my-5 p-5">
             <h2 className="text-3xl font-medium mb-3">
               <span className="text-textBlue">Music-Amplitudein</span>{" "}

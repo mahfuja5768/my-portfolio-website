@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
-import { FaPaperPlane } from "react-icons/fa";
+import { FaMailchimp, FaPaperPlane } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
+
 import SectionTitle from "./SectionTitle";
 const Contact = () => {
   return (
@@ -22,6 +24,9 @@ const Contact = () => {
         </p>
         <a href="mailto:mahfujaahsanmuna@gmail.com">
           <button className="px-4 py-2 rounded-md flex gap-2 items-center text-textBlue text-[15px] border border-textBlue hover:bg-hoverColor duration-300">
+            <span className="">
+              <IoMdMail></IoMdMail>
+            </span>
             Send Mail{" "}
             <span className="animate-pulse">
               <FaPaperPlane></FaPaperPlane>
