@@ -8,6 +8,7 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Education from "@/components/Education";
 import { FaArrowUp } from "react-icons/fa";
+import ProjectSlide from "@/components/ProjectSlide";
 
 export default function Home() {
   return (
@@ -29,7 +30,8 @@ export default function Home() {
             <Project />
             <Education />
             <Contact />
-            <Footer></Footer>
+            <ProjectSlide/>
+            <Footer/>
             <a
               className="hover:animate-bounce text-textBlue border-2 border-textBlue p-2 fixed bottom-0 right-0 mb-8 mr-8"
               href="#home"
