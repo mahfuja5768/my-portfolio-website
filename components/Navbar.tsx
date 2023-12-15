@@ -107,7 +107,7 @@ export const Navbar = () => {
             </Link>
           </ul>
           <a
-            href="https://drive.google.com/file/d/17nCb_gbu8fBMzNcsmCws-soh1ugvc2X8/view?usp=sharing"
+            href="https://drive.google.com/file/d/1MR5hzasXZT6_vN1r0-lc0rrj2RGw2-aD/view?usp=drive_link"
             target="_blank"
           >
             <motion.button
@@ -212,7 +212,7 @@ export const Navbar = () => {
                   </Link>
                 </ul>
                 <a
-                  href="https://drive.google.com/file/d/17nCb_gbu8fBMzNcsmCws-soh1ugvc2X8/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1MR5hzasXZT6_vN1r0-lc0rrj2RGw2-aD/view?usp=drive_link"
                   target="_blank"
                 >
                   <motion.button
