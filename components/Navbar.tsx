@@ -25,7 +25,6 @@ export const Navbar = () => {
     e.currentTarget.classList.add("active");
   };
 
-  
   return (
     <div className="w-full shadow-2xl h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
       <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
@@ -35,7 +34,9 @@ export const Navbar = () => {
           transition={{ duration: 0.1 }}
         >
           <a href="#home">
-            <h1 className="text-textBlue  md:text-5xl text-xl md:p-2 p-1 border-4 border-textBlue rounded-tl-3xl rounded-br-3xl">M</h1>
+            <h1 className="text-textBlue  md:text-5xl text-xl md:p-2 p-1 border-4 border-textBlue rounded-tl-3xl rounded-br-3xl">
+              M
+            </h1>
           </a>
         </motion.div>
         <div className="hidden mdl:inline-flex items-center gap-7">
@@ -107,7 +108,7 @@ export const Navbar = () => {
             </Link>
           </ul>
           <a
-            href="https://drive.google.com/file/d/1omPFOqeLy0bFauyiq4cHRccVowoiJo3i/view?usp=sharing"
+            href="https://drive.google.com/file/d/1P0IKSsi-cBsdy3f5A9HYXXk79795CE7u/view?usp=drive_link"
             target="_blank"
           >
             <motion.button
@@ -130,9 +131,7 @@ export const Navbar = () => {
           <span className="w-full h-[2px] bg-textBlue inline-flex transform translate-x-1 group-hover:translate-x-3 transition-all ease-in-out duration-300"></span>
         </div>
         {showMenu && (
-          <div
-            className="absolute mdl:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end"
-          >
+          <div className="absolute mdl:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end">
             <motion.div
               initial={{ x: 20, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
@@ -212,7 +211,7 @@ export const Navbar = () => {
                   </Link>
                 </ul>
                 <a
-                  href="https://drive.google.com/file/d/1omPFOqeLy0bFauyiq4cHRccVowoiJo3i/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1P0IKSsi-cBsdy3f5A9HYXXk79795CE7u/view?usp=drive_link"
                   target="_blank"
                 >
                   <motion.button
@@ -227,13 +226,15 @@ export const Navbar = () => {
                 <div className="flex gap-5 mdl:text-3xl text-2xl text-textBlue">
                   <a
                     className="hover:animate-bounce"
-                    href="https://www.linkedin.com/in/ahasanmuna/"  target="_blank"
+                    href="https://www.linkedin.com/in/ahasanmuna/"
+                    target="_blank"
                   >
                     <FaLinkedin></FaLinkedin>
                   </a>
                   <a
                     className="hover:animate-bounce"
-                    href="https://github.com/mahfuja5768"  target="_blank"
+                    href="https://github.com/mahfuja5768"
+                    target="_blank"
                   >
                     {" "}
                     <FaGithub></FaGithub>
