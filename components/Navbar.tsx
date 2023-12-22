@@ -34,7 +34,7 @@ export const Navbar = () => {
           transition={{ duration: 0.1 }}
         >
           <a href="#home">
-            <h1 className="text-textBlue  md:text-5xl text-xl md:p-2 p-1 border-4 border-textBlue rounded-tl-3xl rounded-br-3xl">
+            <h1 className="text-textBlue  md:text-3xl text-xl md:p-2 p-1 my-2 border-4 border-textBlue rounded-tl-3xl rounded-br-3xl">
               M
             </h1>
           </a>
@@ -136,18 +136,18 @@ export const Navbar = () => {
               initial={{ x: 20, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.1 }}
-              className="w-[80%] h-full bg-[#112240]  overflow-y-scroll scrollbarHide flex flex-col items-center px-4 py-10 relative"
+              className="w-[80%] h-full bg-textLight overflow-y-scroll scrollbarHide flex flex-col items-center px-4 py-10 relative"
             >
               <MdOutlineClose
                 onClick={() => setShowMenu(false)}
-                className="text-3xl text-textBlue  hover:text-red-500 absolute cursor-pointer right-4 top-4"
+                className="text-3xl text-white  hover:text-red-500 absolute cursor-pointer right-4 top-4"
               ></MdOutlineClose>
               <div className="flex flex-col items-center gap-7">
                 <ul className="flex flex-col text-base gap-7">
                   <Link
                     href="#home"
                     onClick={handleScroll}
-                    className="flex items-center gap-1 font-medium text-textBlue hover:text-textDark cursor-pointer duration-300 nav-link"
+                    className="flex items-center gap-1 font-medium text-white hover:text-gray-400 cursor-pointer duration-300 nav-link"
                   >
                     <motion.li
                       initial={{ x: 20, opacity: 0 }}
@@ -160,7 +160,7 @@ export const Navbar = () => {
                   <Link
                     href="#about"
                     onClick={handleScroll}
-                    className="flex items-center gap-1 font-medium text-textBlue hover:text-textDark cursor-pointer duration-300 nav-link"
+                    className="flex items-center gap-1 font-medium text-white hover:text-gray-400 cursor-pointer duration-300 nav-link"
                   >
                     <motion.li
                       initial={{ x: 20, opacity: 0 }}
@@ -173,7 +173,7 @@ export const Navbar = () => {
                   <Link
                     href="#project"
                     onClick={handleScroll}
-                    className="flex items-center gap-1 font-medium text-textBlue hover:text-textDark cursor-pointer duration-300 nav-link"
+                    className="flex items-center gap-1 font-medium text-white hover:text-gray-400 cursor-pointer duration-300 nav-link"
                   >
                     <motion.li
                       initial={{ x: 20, opacity: 0 }}
@@ -186,7 +186,7 @@ export const Navbar = () => {
                   <Link
                     onClick={handleScroll}
                     href="#education"
-                    className="flex items-center gap-1 font-medium text-textBlue hover:text-textDark cursor-pointer duration-300 nav-link"
+                    className="flex items-center gap-1 font-medium text-white hover:text-gray-400 cursor-pointer duration-300 nav-link"
                   >
                     <motion.li
                       initial={{ x: 20, opacity: 0 }}
@@ -199,7 +199,7 @@ export const Navbar = () => {
                   <Link
                     onClick={handleScroll}
                     href="#contact"
-                    className="flex items-center gap-1 font-medium text-textBlue hover:text-textDark cursor-pointer duration-300 nav-link"
+                    className="flex items-center gap-1 font-medium text-white hover:text-gray-400 cursor-pointer duration-300 nav-link"
                   >
                     <motion.li
                       initial={{ x: 20, opacity: 0 }}
@@ -218,12 +218,12 @@ export const Navbar = () => {
                     initial={{ x: 20, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.2, delay: 0.3, ease: "easeIn" }}
-                    className="px-2 py-2 rounded-md text-textBlue text-[15px] border border-textBlue hover:bg-hoverColor duration-300"
+                    className="px-2 py-2 rounded-md text-white text-[15px] border border-white hover:bg-hoverColor duration-300"
                   >
                     Resume
                   </motion.button>
                 </a>
-                <div className="flex gap-5 mdl:text-3xl text-2xl text-textBlue">
+                <div className="flex gap-5 mdl:text-3xl text-2xl text-white">
                   <a
                     className="hover:animate-bounce"
                     href="https://www.linkedin.com/in/ahasanmuna/"
