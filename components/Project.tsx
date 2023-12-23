@@ -248,7 +248,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="border-2 rounded-2xl border-textBlue">
+        {/* <div className="border-2 rounded-2xl border-textBlue">
           <Image className="h-72 rounded-t-2xl" src={p6} alt="" />
           <div className="my-5 p-5">
             <h2 className="text-3xl font-medium mb-3">
@@ -283,7 +283,7 @@ const Project = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
