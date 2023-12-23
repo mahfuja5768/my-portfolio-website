@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
-import myPhoto from "../public/assets/muna.png";
+import myPhoto from "../public/assets/muna.jpg";
 export const Banner = () => {
   return (
     <section
@@ -15,7 +15,7 @@ export const Banner = () => {
         <Image
           src={myPhoto}
           alt="myPhoto"
-          className="rounded-full border-4 border-textBlue p-1"
+          className="rounded-full mx-auto w-3/4  border-4 border-textBlue p-1"
         ></Image>
       </motion.div>
       <motion.h3
