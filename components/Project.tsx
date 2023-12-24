@@ -248,7 +248,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        {/* <div className="border-2 rounded-2xl border-textBlue">
+        <div className="border-2 rounded-2xl border-textBlue">
           <Image className="h-72 rounded-t-2xl" src={p6} alt="" />
           <div className="my-5 p-5">
             <h2 className="text-3xl font-medium mb-3">
@@ -259,8 +259,12 @@ const Project = () => {
               <span className="text-textBlue font-bold mr-2">
                 About project:
               </span>
-             This is a HTML CSS landing page.
+              This is a HTML CSS landing page. Here I apply only html, css, and
+              javascript. I use javascript for the responsive navbar.
             </p>
+            <h3 className="text-xl font-medium my-3">
+              <span className=" text-textBlue"> Technologies: </span> HTML, CSS, JavaScript
+            </h3>
             <div className=" my-4 flex justify-start  gap-3 ">
               <a href="https://mahfuja5768.github.io/Nexcent" target="_blank">
                 <button className="px-2 py-2 rounded-md text-textBlue text-[15px] border border-textBlue hover:bg-hoverColor duration-300 flex items-center gap-2">
@@ -270,10 +274,7 @@ const Project = () => {
                   </span>
                 </button>
               </a>
-              <a
-                href="https://github.com/mahfuja5768/Nexcent"
-                target="_blank"
-              >
+              <a href="https://github.com/mahfuja5768/Nexcent" target="_blank">
                 <button className="px-2 py-2 rounded-md text-textBlue text-[15px] border border-textBlue hover:bg-hoverColor duration-300 flex items-center gap-2">
                   Github Repo{" "}
                   <span>
@@ -283,7 +284,7 @@ const Project = () => {
               </a>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );
