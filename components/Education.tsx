@@ -11,7 +11,7 @@ const Education = () => {
       institution: "Govt. Tolaram University College",
       subject: "Chemistry",
       score: "First Year",
-      year: "Expected 4046",
+      year: "Expected 2026",
     },
     {
       board: "Dhaka",
@@ -19,7 +19,7 @@ const Education = () => {
       institution: "Narayanganj Govt. Mohila College",
       subject: "Science",
       score: "5.00",
-      year: "4041",
+      year: "2021",
     },
     {
       board: "Dhaka",
@@ -27,7 +27,7 @@ const Education = () => {
       institution: "Dapa Adarsha High School",
       subject: "Science",
       score: "5.00",
-      year: "4019",
+      year: "2019",
     },
   ];
 
