@@ -24,7 +24,7 @@ export const Banner = () => {
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.7 }}
-          className="text-lg font-titleFont tracking-wide text-textBlue"
+          className="text-lg font-titleFont tracking-wide text-textDark"
         >
           Hi, I am Mahfuja Ahasan Muna
         </motion.h3>
@@ -34,11 +34,7 @@ export const Banner = () => {
           transition={{ duration: 0.5, delay: 0.8 }}
           className="text-3xl lgl:text-4xl font-semibold font-titleFont "
         >
-          Enhancing Moments with Code: Meet{" "}
-          <span className="my-2 inline-flex text-textBlue">
-            Mahfuja Ahasan Muna,
-          </span>{" "}
-          the Exceptional Web Developer.
+           Building Beautiful, Functional Web Spaces & Creating Tomorrow's Web Today.
         </motion.h1>
         <motion.p
           initial={{ y: 10, opacity: 0 }}
@@ -56,11 +52,24 @@ export const Banner = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="px-2 py-2 rounded-md text-textBlue text-[15px] border border-textBlue hover:bg-hoverColor duration-300"
+            className="px-5 py-3 text-[15px] border bg-textBlue border-none  rounded-full text-white hover:text-bodyColor hover:bg-textDark font-medium duration-300 me-4"
           >
             Learn More
           </motion.button>
         </a>
+        <a
+            href="https://drive.google.com/file/d/1P0IKSsi-cBsdy3f5A9HYXXk79795CE7u/view?usp=drive_link"
+            target="_blank"
+          >
+            <motion.button
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{duration: 0.5, delay: 0.5 }}
+              className="px-5 py-3 text-[15px]  bg-bodyColor border-2 hover:border-textDark border-textBlue  rounded-full text-white hover:text-bodyColor hover:bg-textDark duration-300  font-medium"
+            >
+              Resume
+            </motion.button>
+          </a>
       </div>
     </section>
   );

@@ -10,6 +10,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Project = () => {
+  // console.log(res);
   return (
     <section id="project" className="max-w-container mx-auto py-10 mdl:py-24">
       <SectionTitle title="My Projects"></SectionTitle>
@@ -17,8 +18,8 @@ const Project = () => {
         <div className="border-2 rounded-2xl border-textBlue">
           <Image className="h-56  rounded-t-2xl" src={p1} alt="" />
           <div className="p-3 pt-4">
-            <h2 className="text-3xl font-medium mb-3">
-              <span className="text-textBlue">Dream Property</span>{" "}
+            <h2 className="text-3xl font-bold mb-3">
+              <span className="text-textLight">Dream Property</span>{" "}
             </h2>
 
             <p className="text-textDark text-justify">
@@ -34,8 +35,8 @@ const Project = () => {
               accounts, and property requests, making this project a
               comprehensive learning experience in web development.
             </p>
-            <h3 className="text-xl font-medium my-3">
-              <span className=" text-textBlue"> Technologies: </span> React,
+            <h3 className="text-xl font-medium my-3 text-textDark text-textDark">
+              <span className=" text-textBlue font-bold"> Technologies: </span> React,
               Node js, Express js, Tailwind, Material Ui, Firebase, Jwt
             </h3>
             <div className=" my-4 flex justify-start  gap-3 ">
@@ -83,7 +84,7 @@ const Project = () => {
               cart additions prompt login or registration. The my cart page
               displays added products with a delete option for each.
             </p>
-            <h3 className="text-xl font-medium my-3">
+            <h3 className="text-xl font-medium my-3 text-textDark">
               <span className=" text-textBlue"> Technologies: </span> React,
               Tailwind, Firebase
             </h3>
@@ -132,7 +133,7 @@ const Project = () => {
               order and add items to their added-food section, where they manage
               purchases, additions, updates, and deletions.
             </p>
-            <h3 className="text-xl font-medium my-3">
+            <h3 className="text-xl font-medium my-3 text-textDark">
               <span className=" text-textBlue"> Technologies: </span> React,
               Node js, Express js, Tailwind, Material Ui, Firebase, Jwt
             </h3>
@@ -176,7 +177,7 @@ const Project = () => {
               features like adding, deleting blogs, posting reviews, and
               creating user accounts, all backed by MongoDB.
             </p>
-            <h3 className="text-xl font-medium my-3">
+            <h3 className="text-xl font-medium my-3 text-textDark">
               <span className=" text-textBlue"> Technologies: </span> Node.js,
               JWT , MongoDB, NPM, Router ,React.js, Express.js, , Tailwind,
               Firebase
@@ -220,7 +221,7 @@ const Project = () => {
               capability to add new shows to the platform, enhancing the overall
               user experience.
             </p>
-            <h3 className="text-xl font-medium my-3">
+            <h3 className="text-xl font-medium my-3 text-textDark">
               <span className=" text-textBlue"> Technologies: </span> Node.js,
               JWT , MongoDB, NPM, Router ,React.js, Express.js, , Tailwind,
               Firebase
@@ -262,7 +263,7 @@ const Project = () => {
               This is a HTML CSS landing page. Here I apply only html, css, and
               javascript. I use javascript for the responsive navbar.
             </p>
-            <h3 className="text-xl font-medium my-3">
+            <h3 className="text-xl font-medium my-3 text-textDark">
               <span className=" text-textBlue"> Technologies: </span> HTML, CSS, JavaScript
             </h3>
             <div className=" my-4 flex justify-start  gap-3 ">

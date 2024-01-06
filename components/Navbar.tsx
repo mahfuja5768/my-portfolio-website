@@ -26,7 +26,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="w-full shadow-2xl h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
+    <div className="max-w-container mx-auto mt-8 px-12 rounded-full shadow-2xl h-18 lg:h-[12vh] sticky top-0 z-50 bg-[#fff] text-textBlue">
       <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
         <motion.div
           initial={{ y: -10, opacity: 0 }}
@@ -34,17 +34,17 @@ export const Navbar = () => {
           transition={{ duration: 0.1 }}
         >
           <a href="#home">
-            <h1 className="text-textBlue  md:text-3xl text-xl md:p-2 p-1 my-2 border-4 border-textBlue rounded-tl-3xl rounded-br-3xl">
+            <h1 className="text-bodyColor  md:text-3xl text-xl md:p-2 p-1 my-2 border-4 border-bodyColor rounded-tl-3xl rounded-br-3xl">
               M
             </h1>
           </a>
         </motion.div>
         <div className="hidden mdl:inline-flex items-center gap-7">
-          <ul className="flex text-[15px] gap-7">
+          <ul className="flex text-[16px] gap-7">
             <Link
               href="#home"
               onClick={handleScroll}
-              className="flex items-center gap-1 font-medium text-textBlue hover:text-textDark cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 font-medium text-bodyColor hover:text-textDark cursor-pointer duration-300 nav-link"
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -57,7 +57,7 @@ export const Navbar = () => {
             <Link
               href="#about"
               onClick={handleScroll}
-              className="flex items-center gap-1 font-medium text-textBlue hover:text-textDark cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 font-medium text-bodyColor hover:text-textDark cursor-pointer duration-300 nav-link"
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -70,7 +70,7 @@ export const Navbar = () => {
             <Link
               href="#project"
               onClick={handleScroll}
-              className="flex items-center gap-1 font-medium text-textBlue hover:text-textDark cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 font-medium text-bodyColor hover:text-textDark cursor-pointer duration-300 nav-link"
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -83,7 +83,7 @@ export const Navbar = () => {
             <Link
               onClick={handleScroll}
               href="#education"
-              className="flex items-center gap-1 font-medium text-textBlue hover:text-textDark cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 font-medium text-bodyColor hover:text-textDark cursor-pointer duration-300 nav-link"
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -96,7 +96,7 @@ export const Navbar = () => {
             <Link
               onClick={handleScroll}
               href="#contact"
-              className="flex items-center gap-1 font-medium text-textBlue hover:text-textDark cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 font-medium text-bodyColor hover:text-textDark cursor-pointer duration-300 nav-link"
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -118,7 +118,7 @@ export const Navbar = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
-              className="px-2 py-2 rounded-md text-textBlue text-[15px] border border-textBlue hover:bg-hoverColor duration-300 animate-bounce"
+              className="px-5 py-3 text-[15px] border bg-bodyColor  rounded-full text-white hover:text-bodyColor hover:bg-textDark duration-300 "
             >
               Resume
             </motion.button>
@@ -127,7 +127,7 @@ export const Navbar = () => {
         {/* icon */}
         <div
           onClick={() => setShowMenu(true)}
-          className="w-6 h-5 mdl:hidden flex items-center justify-center flex-col text-4xl text-textBlue cursor-pointer overflow-hidden group gap-1"
+          className="w-6 h-5 mdl:hidden flex items-center justify-center flex-col text-4xl text-bodyColor cursor-pointer overflow-hidden group gap-1"
         >
           <span className="w-full h-[2px] bg-textBlue inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
           <span className="w-full h-[2px] bg-textBlue inline-flex transform translate-x-3 group-hover:translate-x-0 transition-all ease-in-out duration-300"></span>

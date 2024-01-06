@@ -51,7 +51,7 @@ const Education = () => {
           </thead>
           <tbody>
             {educationData.map((education, index) => (
-              <tr key={index} className="border-4 p-5 border-textBlue">
+              <tr key={index} className="border-4 p-5 border-textBlue text-textDark">
                 <td className="border-4 p-5 border-textBlue">
                   {education.board}
                 </td>

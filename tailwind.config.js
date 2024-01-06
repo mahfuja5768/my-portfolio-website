@@ -33,9 +33,10 @@ module.exports = {
       },
       colors: {
         bodyColor: "#0b1122",
-        textBlue: "#3661EB",
-        textLight: "#fff",
+        textBlue: "#326a1a",
+        textLight: "#326a1a",
         textDark: "#D2D3D8",
+        btnColor:'#3661EB',
         hoverColor: "rgba(100,255,218,0.1)",
       },
     },
