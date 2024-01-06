@@ -5,7 +5,7 @@ export const Banner = () => {
   return (
     <section
       id="home"
-      className="max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col md:flex-row-reverse justify-center items-center gap-4 lgl:gap-8 mdl:gap-10 xl:gap-4"
+      className="max-w-container mx-auto py-10 mdl:py-24 flex flex-col md:flex-row-reverse justify-center items-center gap-4 lgl:gap-8 mdl:gap-10 xl:gap-4"
     >
       <motion.div
         initial={{ y: 10, opacity: 0 }}

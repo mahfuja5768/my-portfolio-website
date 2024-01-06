@@ -13,8 +13,8 @@ const ProjectSlide = () => {
    <div>
      <SectionTitle title="Visual Projects"></SectionTitle>
       <Marquee pauseOnClick speed={20} >
-    <div className="max-w-container mx-auto py-10 lgl:py-32 flex flex-col gap-8">
-        <div className="grid grid-cols-5 gap-2">
+    <div className="max-w-container mx-auto py-10 lgl:py-32 flex flex-col justify-center items-center gap-8">
+        <div className="grid grid-cols-6 gap-2">
           <Image src={q1} alt="project1"></Image>
           <Image src={q3} alt="project1"></Image>
           <Image src={q4} alt="project1"></Image>

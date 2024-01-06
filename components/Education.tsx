@@ -34,7 +34,7 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="max-w-containerSmall mx-auto py-8 lgl:py-14 flex flex-col gap-8"
+      className="max-w-container mx-auto py-8 lgl:py-14 flex flex-col justify-center items-center  gap-8"
     >
       <SectionTitle title="Educational Information"></SectionTitle>
       <div className="overflow-x-auto">

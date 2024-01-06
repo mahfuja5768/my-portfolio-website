@@ -8,7 +8,7 @@ const Contact = () => {
     <div>
       <section
         id="contact"
-        className="max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col justify-center items-center gap-4 lgl:gap-8 mdl:gap-10 xl:gap-4 text-center"
+        className="max-w-container mx-auto py-10 mdl:py-24 flex flex-col justify-center items-center gap-4 lgl:gap-8 mdl:gap-10 xl:gap-4 text-center"
       >
         {" "}
         <h3 className="text-lg font-titleFont tracking-wide text-textBlue">
