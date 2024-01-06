@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { motion } from "framer-motion";
 import Image from "next/image";
 import myPhoto from "../public/assets/muna1.jpg";
@@ -15,7 +16,6 @@ export const Banner = () => {
         <Image
           src={myPhoto}
           alt="myPhoto"
-          // className="rounded-full mx-auto border-4 border-textBlue p-1"
           className=""
         ></Image>
       </motion.div>
