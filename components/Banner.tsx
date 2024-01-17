@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { motion } from "framer-motion";
 import Image from "next/image";
-import myPhoto from "/public/assets/Muna.jpg";
+import myPhoto from "/public/assets/muna.jpg";
 export const Banner = () => {
   return (
     <section
