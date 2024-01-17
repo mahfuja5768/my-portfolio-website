@@ -2,12 +2,12 @@ import SectionTitle from "./SectionTitle";
 
 export const About = () => {
   return (
-    <section
+    <section 
       id="about"
       className="max-w-container mx-auto py-10 lgl:py-32 flex flex-col gap-8 text-textDark"
     >
       <SectionTitle title="About Me"></SectionTitle>
-      <div className="text-center">
+      <div className="text-center" >
         <p>
           Hey, I am
           <span className="font-semibold tracking-wide ms-2 text-white">

@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { motion } from "framer-motion";
 import Image from "next/image";
-import myPhoto from "../public/assets/muna1.jpg";
+import myPhoto from "../public/assets/Muna.jpg";
 export const Banner = () => {
   return (
     <section
@@ -16,7 +16,7 @@ export const Banner = () => {
         <Image
           src={myPhoto}
           alt="myPhoto"
-          className=""
+          className="w-1/2 mx-auto"
         ></Image>
       </motion.div>
       <div>
