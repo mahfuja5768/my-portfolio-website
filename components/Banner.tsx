@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { motion } from "framer-motion";
 import Image from "next/image";
-import myPhoto from "../public/assets/Muna.jpg";
+// import myPhoto from "";
 export const Banner = () => {
   return (
     <section
@@ -11,10 +11,10 @@ export const Banner = () => {
       <motion.div
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.6 }}
+        transition={{ duration: 0.5, delay: 0.7 }}
       >
         <Image
-          src={myPhoto}
+          src='/public/assets/Muna.jpg'
           alt="myPhoto"
           className="w-1/2 mx-auto"
         ></Image>
