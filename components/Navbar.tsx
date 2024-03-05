@@ -44,7 +44,7 @@ export const Navbar = () => {
             <Link
               href="#home"
               onClick={handleScroll}
-              className="flex items-center gap-1 font-medium text-bodyColor hover:text-textDark cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 font-medium text-bodyColor cursor-pointer duration-300 nav-link"
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -57,7 +57,7 @@ export const Navbar = () => {
             <Link
               href="#about"
               onClick={handleScroll}
-              className="flex items-center gap-1 font-medium text-bodyColor hover:text-textDark cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 font-medium text-bodyColor cursor-pointer duration-300 nav-link"
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -70,7 +70,7 @@ export const Navbar = () => {
             <Link
               href="#project"
               onClick={handleScroll}
-              className="flex items-center gap-1 font-medium text-bodyColor hover:text-textDark cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 font-medium text-bodyColor cursor-pointer duration-300 nav-link"
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -82,21 +82,8 @@ export const Navbar = () => {
             </Link>
             <Link
               onClick={handleScroll}
-              href="#education"
-              className="flex items-center gap-1 font-medium text-bodyColor hover:text-textDark cursor-pointer duration-300 nav-link"
-            >
-              <motion.li
-                initial={{ y: -10, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.1, delay: 0.4 }}
-              >
-                Education
-              </motion.li>
-            </Link>
-            <Link
-              onClick={handleScroll}
               href="#contact"
-              className="flex items-center gap-1 font-medium text-bodyColor hover:text-textDark cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 font-medium text-bodyColor cursor-pointer duration-300 nav-link"
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -186,19 +173,7 @@ export const Navbar = () => {
                       Project
                     </motion.li>
                   </Link>
-                  <Link
-                    onClick={handleScroll}
-                    href="#education"
-                    className="flex items-center gap-1 font-medium text-white hover:text-gray-400 cursor-pointer duration-300 nav-link"
-                  >
-                    <motion.li
-                      initial={{ x: 20, opacity: 0 }}
-                      animate={{ x: 0, opacity: 1 }}
-                      transition={{ duration: 0.2, delay: 0.1, ease: "easeIn" }}
-                    >
-                      Education
-                    </motion.li>
-                  </Link>
+
                   <Link
                     onClick={handleScroll}
                     href="#contact"
