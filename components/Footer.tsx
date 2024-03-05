@@ -60,15 +60,6 @@ const Footer = () => {
               </li>
             </Link>
             <Link
-              href="#education"
-              className="flex items-center gap-1 font-medium text-textBlue hover:text-textDark cursor-pointer duration-300 nav-link"
-            >
-              <li
-              >
-                Education
-              </li>
-            </Link>
-            <Link
               href="#contact"
               className="flex items-center gap-1 font-medium text-textBlue hover:text-textDark cursor-pointer duration-300 nav-link"
             >
