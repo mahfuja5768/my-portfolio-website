@@ -10,7 +10,6 @@ const Skills = () => {
         <div className="border-2 rounded shadow-2xl bg-transference border-textLight">
           <div className="flex justify-between items-center px-4 lg:px-8 py-5">
             <h4 className="text-2xl font-bold text-white">React JS</h4>
-            <span className="text-2xl font-bold text-white">90 %</span>
           </div>
           <div
             style={{ width: "90%" }}
@@ -20,7 +19,6 @@ const Skills = () => {
         <div className="border-2 rounded shadow-2xl bg-transference border-textLight">
           <div className="flex justify-between items-center px-4 lg:px-8 py-5">
             <h4 className="text-2xl font-bold text-white">Next JS</h4>
-            <span className="text-2xl font-bold text-white">80 %</span>
           </div>
           <div
             style={{ width: "90%" }}
@@ -30,7 +28,6 @@ const Skills = () => {
         <div className="border-2 rounded shadow-2xl bg-transference border-textLight">
           <div className="flex justify-between items-center px-4 lg:px-8 py-5">
             <h4 className="text-2xl font-bold text-white">Node JS</h4>
-            <span className="text-2xl font-bold text-white">80 %</span>
           </div>
           <div
             style={{ width: "90%" }}
@@ -40,7 +37,6 @@ const Skills = () => {
         <div className="border-2 rounded shadow-2xl bg-transference border-textLight">
           <div className="flex justify-between items-center px-4 lg:px-8 py-5">
             <h4 className="text-2xl font-bold text-white">Express Js</h4>
-            <span className="text-2xl font-bold text-white">80 %</span>
           </div>
           <div
             style={{ width: "90%" }}
@@ -50,7 +46,6 @@ const Skills = () => {
         <div className="border-2 rounded shadow-2xl bg-transference border-textLight">
           <div className="flex justify-between items-center px-4 lg:px-8 py-5">
             <h4 className="text-2xl font-bold text-white">Mongo Db</h4>
-            <span className="text-2xl font-bold text-white">80 %</span>
           </div>
           <div
             style={{ width: "90%" }}
@@ -60,7 +55,6 @@ const Skills = () => {
         <div className="border-2 rounded shadow-2xl bg-transference border-textLight">
           <div className="flex justify-between items-center px-4 lg:px-8 py-5">
             <h4 className="text-2xl font-bold text-white">Javascript</h4>
-            <span className="text-2xl font-bold text-white">80 %</span>
           </div>
           <div
             style={{ width: "80%" }}
@@ -70,7 +64,6 @@ const Skills = () => {
         <div className="border-2 rounded shadow-2xl bg-transference border-textLight">
           <div className="flex justify-between items-center px-4 lg:px-8 py-5">
             <h4 className="text-2xl font-bold text-white">HTML5</h4>
-            <span className="text-2xl font-bold text-white">95 %</span>
           </div>
           <div
             style={{ width: "95%" }}
@@ -80,7 +73,6 @@ const Skills = () => {
         <div className="border-2 rounded shadow-2xl bg-transference border-textLight">
           <div className="flex justify-between items-center px-4 lg:px-8 py-5">
             <h4 className="text-2xl font-bold text-white">CSS3</h4>
-            <span className="text-2xl font-bold text-white">95 %</span>
           </div>
           <div
             style={{ width: "95%" }}
@@ -90,7 +82,7 @@ const Skills = () => {
         <div className="border-2 rounded shadow-2xl bg-transference border-textLight">
           <div className="flex justify-between items-center px-4 lg:px-8 py-5">
             <h4 className="text-2xl font-bold text-white">Firebase</h4>
-            <span className="text-2xl font-bold text-white">75 %</span>
+         
           </div>
           <div
             style={{ width: "75%" }}
@@ -100,7 +92,6 @@ const Skills = () => {
         <div className="border-2 rounded shadow-2xl bg-transference border-textLight">
           <div className="flex justify-between items-center px-4 lg:px-8 py-5">
             <h4 className="text-2xl font-bold text-white">Git</h4>
-            <span className="text-2xl font-bold text-white">80 %</span>
           </div>
           <div
             style={{ width: "80%" }}

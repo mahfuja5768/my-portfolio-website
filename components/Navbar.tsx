@@ -129,9 +129,9 @@ export const Navbar = () => {
           onClick={() => setShowMenu(true)}
           className="w-6 h-5 mdl:hidden flex items-center justify-center flex-col text-4xl text-bodyColor cursor-pointer overflow-hidden group gap-1"
         >
-          <span className="w-full h-[2px] bg-textBlue inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
-          <span className="w-full h-[2px] bg-textBlue inline-flex transform translate-x-3 group-hover:translate-x-0 transition-all ease-in-out duration-300"></span>
-          <span className="w-full h-[2px] bg-textBlue inline-flex transform translate-x-1 group-hover:translate-x-3 transition-all ease-in-out duration-300"></span>
+          <span className="w-full h-[2px] bg-bodyColor inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
+          <span className="w-full h-[2px] bg-bodyColor inline-flex transform translate-x-3 group-hover:translate-x-0 transition-all ease-in-out duration-300"></span>
+          <span className="w-full h-[2px] bg-bodyColor inline-flex transform translate-x-1 group-hover:translate-x-3 transition-all ease-in-out duration-300"></span>
         </div>
         {showMenu && (
           <div className="absolute mdl:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end">
@@ -139,11 +139,11 @@ export const Navbar = () => {
               initial={{ x: 20, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.1 }}
-              className="w-[80%] h-full bg-[#2C3333] overflow-y-scroll scrollbarHide flex flex-col items-center px-4 py-10 relative"
+              className="w-[80%] h-full bg-bodyColor overflow-y-scroll scrollbarHide flex flex-col items-center px-4 py-10 relative"
             >
               <MdOutlineClose
                 onClick={() => setShowMenu(false)}
-                className="text-3xl text-white  hover:text-red-500 absolute cursor-pointer right-4 top-4"
+                className="text-3xl text-white  hover:text-red-500 absolute cursor-pointer right-10 top-5"
               ></MdOutlineClose>
               <div className="flex flex-col items-center gap-7">
                 <ul className="flex flex-col text-base gap-7">
